@@ -14,6 +14,8 @@
 		50AAB7F31B4C59CC0085B1D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AAB7F21B4C59CC0085B1D6 /* Images.xcassets */; };
 		50AAB7F61B4C59CC0085B1D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AAB7F41B4C59CC0085B1D6 /* LaunchScreen.xib */; };
 		50AAB8021B4C59CC0085B1D6 /* ThreeLowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AAB8011B4C59CC0085B1D6 /* ThreeLowTests.m */; };
+		50AAB80D1B4C5C3F0085B1D6 /* GenerateNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AAB80C1B4C5C3F0085B1D6 /* GenerateNumber.m */; };
+		50AAB8101B4C6C2E0085B1D6 /* CalculateScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AAB80F1B4C6C2E0085B1D6 /* CalculateScore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		50AAB7FB1B4C59CC0085B1D6 /* ThreeLowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeLowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AAB8001B4C59CC0085B1D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50AAB8011B4C59CC0085B1D6 /* ThreeLowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeLowTests.m; sourceTree = "<group>"; };
+		50AAB80B1B4C5C3F0085B1D6 /* GenerateNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenerateNumber.h; sourceTree = "<group>"; };
+		50AAB80C1B4C5C3F0085B1D6 /* GenerateNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenerateNumber.m; sourceTree = "<group>"; };
+		50AAB80E1B4C6C2E0085B1D6 /* CalculateScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateScore.h; sourceTree = "<group>"; };
+		50AAB80F1B4C6C2E0085B1D6 /* CalculateScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateScore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				50AAB7EA1B4C59CC0085B1D6 /* AppDelegate.m */,
 				50AAB7EC1B4C59CC0085B1D6 /* ViewController.h */,
 				50AAB7ED1B4C59CC0085B1D6 /* ViewController.m */,
+				50AAB80B1B4C5C3F0085B1D6 /* GenerateNumber.h */,
+				50AAB80C1B4C5C3F0085B1D6 /* GenerateNumber.m */,
+				50AAB80E1B4C6C2E0085B1D6 /* CalculateScore.h */,
+				50AAB80F1B4C6C2E0085B1D6 /* CalculateScore.m */,
 				50AAB7EF1B4C59CC0085B1D6 /* Main.storyboard */,
 				50AAB7F21B4C59CC0085B1D6 /* Images.xcassets */,
 				50AAB7F41B4C59CC0085B1D6 /* LaunchScreen.xib */,
@@ -222,6 +232,8 @@
 				50AAB7EE1B4C59CC0085B1D6 /* ViewController.m in Sources */,
 				50AAB7EB1B4C59CC0085B1D6 /* AppDelegate.m in Sources */,
 				50AAB7E81B4C59CC0085B1D6 /* main.m in Sources */,
+				50AAB80D1B4C5C3F0085B1D6 /* GenerateNumber.m in Sources */,
+				50AAB8101B4C6C2E0085B1D6 /* CalculateScore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
